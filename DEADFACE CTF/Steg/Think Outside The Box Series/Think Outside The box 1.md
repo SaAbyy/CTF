@@ -20,13 +20,13 @@ ff c2 00 11 08 01 79 01 f4
 
 Breakdown:
 
-| Bytes   |                          Meaning | Value |
-| ------- | -------------------------------: | ----: |
-| `ff c2` |                      SOF2 marker |     — |
-| `00 11` |              Segment length (17) |     — |
-| `08`    |               Precision (8 bits) |     — |
-| `01 79` | **Height** = 0x0179 = **377 px** |       |
-| `01 f4` |  **Width** = 0x01F4 = **500 px** |       |
+| Bytes   |                          Meaning |
+| ------- | -------------------------------: |
+| `ff c2` |                      SOF2 marker | 
+| `00 11` |              Segment length (17) | 
+| `08`    |               Precision (8 bits) |  
+| `01 79` | **Height** = 0x0179 = **377 px** |   
+| `01 f4` |  **Width** = 0x01F4 = **500 px** | 
 
 So the image is declared as **500×377**.
 
